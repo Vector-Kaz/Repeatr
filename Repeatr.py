@@ -3,9 +3,9 @@ import youtube_dl
 import soundscrape
 import os
 
-reddit = praw.Reddit(client_id='rt70vub5_R-vmg', client_secret="TqM7MOpZufD2XSixb7F-LE0HOPI",
-        password='12341234-12341234', user_agent='Gengar!',
-        username='NexusMusic-Bot')
+reddit = praw.Reddit(client_id='CLIENT ID', client_secret="CLIENT_SECRET",
+        password='Account Password', user_agent='Your Agent',
+        username='Account User')
 
 DLinks=[]
 CloudLinks=[]
